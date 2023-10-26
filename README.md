@@ -1,9 +1,3 @@
-## [React Notes App Tutorial 2023]
+## [React Notes App]
 
-![](thumbnail.jpg)
-
-# Happy hacking
-
-
-
-# Notes-react-App
+Welcome all in this small notes application where user can create,edit delete and manage different notes.
