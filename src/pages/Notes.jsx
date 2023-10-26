@@ -23,7 +23,7 @@ const Notes = ({notes}) => {
   return (
     <section>
         <header className="notes__header">
-            {!showSearch && <h2>My Notes</h2>}
+            {!showSearch && <h2>Ery Notes</h2>}
             {showSearch && <input type="search" autofocus placeholder='keyword...' value={text} onChange={(e)=> { setText(e.target.value); handleSeach();} }/>}
             <button className='btn' onClick={()=> setShowsearch(!showSearch)}>{!showSearch ? <CiSearch /> : <GrClose/>}</button>
         </header>

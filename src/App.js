@@ -1,6 +1,5 @@
 import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import { CreateNote , Notes , EditNote} from './pages';
-// import dummyNotes from './dummy_notes'
 import { useState , useEffect} from 'react';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <Route path='/' element={<Notes notes={notes}/>}/>
       <Route path='/create-note' element={<CreateNote setNotes={setNotes}/>}/>
       <Route path='/edit-note/:id' element={<EditNote notes={notes} setNotes={setNotes}/>}/>
-    
     </Routes>
     </BrowserRouter>
    </main>
